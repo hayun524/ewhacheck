@@ -1,0 +1,636 @@
+{
+  "meta": {
+    "lastChecked": "2026-10-11",
+    "note": "모든 URL과 기준 시점은 2026-10-11에 이화여대 공식 사이트에서 직접 확인함. 원문에 연도가 적혀 있지 않으면 basis를 비워 '기준 시점 미확인'으로 표시. 학점 계산·요약 데이터는 담지 않는다. 전공 목록은 majors.json."
+  },
+  "years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020,
+    2019,
+    2018,
+    2017,
+    2016,
+    2015,
+    2014,
+    2013,
+    2012
+  ],
+  "types": [
+    {
+      "id": "double",
+      "name": "복수전공"
+    },
+    {
+      "id": "minor",
+      "name": "부전공"
+    },
+    {
+      "id": "linked",
+      "name": "연계전공"
+    },
+    {
+      "id": "fusion",
+      "name": "융합전공"
+    }
+  ],
+  "contacts": {
+    "univ": {
+      "label": "이화여자대학교 대표번호",
+      "phone": "02-3277-2114",
+      "source": "https://www.ewha.ac.kr/ewha/index.do"
+    }
+  },
+  "sources": {
+    "ewha-degree": {
+      "title": "학사학위수여 (졸업 요건)",
+      "org": "이화여대 홈페이지",
+      "source": "이화여자대학교 공식 홈페이지 학사안내",
+      "url": "https://www.ewha.ac.kr/ewha/bachelor/graduate03.do",
+      "location": [
+        "이화여대 홈페이지",
+        "학사안내",
+        "학사정보",
+        "졸업",
+        "학사학위수여"
+      ],
+      "steps": [
+        "이화여자대학교 홈페이지(www.ewha.ac.kr) 접속",
+        "상단 메뉴 학사안내 › 학사정보 › 졸업 선택",
+        "학사학위수여 탭 선택",
+        "학위수여조건 표에서 {group} 열 확인"
+      ],
+      "basis": [
+        {
+          "from": 2007,
+          "to": 2013,
+          "label": "2007~2013학년도 입학생"
+        },
+        {
+          "from": 2014,
+          "to": 2019,
+          "label": "2014~2019학년도 입학생"
+        },
+        {
+          "from": 2020,
+          "to": 9999,
+          "label": "2020학년도 이후 입학생"
+        }
+      ]
+    },
+    "ewha-curriculum-year": {
+      "title": "입학년도별 전공 교과과정·취득학점",
+      "org": "이화여대 홈페이지",
+      "source": "이화여자대학교 공식 홈페이지 학사안내 (유레카 공개 조회, 로그인 불필요)",
+      "url": "https://www.ewha.ac.kr/ewha/bachelor/curriculum-major.do",
+      "location": [
+        "이화여대 홈페이지",
+        "학사안내",
+        "교과과정",
+        "전공별 교과과정 보기"
+      ],
+      "steps": [
+        "이화여자대학교 홈페이지 접속",
+        "학사안내 › 교과과정 › 전공별 교과과정 보기 선택",
+        "'입학년도별 교과과정' 조회하기 클릭",
+        "입학년도 {year} 선택 후 해당 전공 조회"
+      ],
+      "basisYearSelectable": true
+    },
+    "biz-curriculum": {
+      "title": "경영학부 학부 교과과정 안내",
+      "org": "경영대학 홈페이지",
+      "source": "이화여자대학교 경영대학 공식 홈페이지",
+      "url": "https://biz.ewha.ac.kr/biz/biz/curriculum.do",
+      "location": [
+        "경영대학 홈페이지",
+        "경영학부",
+        "경영학부 소개",
+        "학부 교과과정"
+      ],
+      "steps": [
+        "경영대학 홈페이지(biz.ewha.ac.kr) 접속",
+        "경영학부 › 경영학부 소개 › 학부 교과과정 선택",
+        "'학부 교과과정 자세히보기'로 학교 공식 교과과정 페이지 이동"
+      ],
+      "basis": null
+    },
+    "ewha-double": {
+      "title": "복수전공 이수학점·학점중복인정 규정",
+      "org": "이화여대 홈페이지",
+      "source": "이화여자대학교 공식 홈페이지 학사안내",
+      "url": "https://www.ewha.ac.kr/ewha/bachelor/major02.do",
+      "location": [
+        "이화여대 홈페이지",
+        "학사안내",
+        "학사정보",
+        "전공선택",
+        "복수전공"
+      ],
+      "steps": [
+        "이화여자대학교 홈페이지 접속",
+        "학사안내 › 학사정보 › 전공선택 선택",
+        "복수전공 탭 선택",
+        "'이수학점'과 '복수전공 이수자의 학점중복인정' 항목 확인"
+      ],
+      "basis": [
+        {
+          "from": 2012,
+          "to": 9999,
+          "label": "2012학년도 이후 입학생 (학점중복인정 기준)"
+        }
+      ]
+    },
+    "ewha-minor": {
+      "title": "부전공 규정",
+      "org": "이화여대 홈페이지",
+      "source": "이화여자대학교 공식 홈페이지 학사안내",
+      "url": "https://www.ewha.ac.kr/ewha/bachelor/major03.do",
+      "location": [
+        "이화여대 홈페이지",
+        "학사안내",
+        "학사정보",
+        "전공선택",
+        "부전공"
+      ],
+      "steps": [
+        "이화여자대학교 홈페이지 접속",
+        "학사안내 › 학사정보 › 전공선택 선택",
+        "부전공 탭 선택"
+      ],
+      "basis": null
+    },
+    "cse-curriculum-main": {
+      "title": "컴퓨터공학과 학사 이수 요건",
+      "org": "컴퓨터공학과 홈페이지",
+      "source": "이화여자대학교 컴퓨터공학과 공식 홈페이지",
+      "url": "https://cse.ewha.ac.kr/cse/academic/curriculum.do",
+      "location": [
+        "컴퓨터공학과 홈페이지",
+        "교육활동",
+        "교육과정",
+        "학사 이수 요건"
+      ],
+      "steps": [
+        "컴퓨터공학과 홈페이지(cse.ewha.ac.kr) 접속",
+        "교육활동 › 교육과정 선택",
+        "'학사 이수 요건' 표에서 {group} 열 확인"
+      ],
+      "basis": [
+        {
+          "from": 0,
+          "to": 2019,
+          "label": "19학번 이전"
+        },
+        {
+          "from": 2020,
+          "to": 2023,
+          "label": "20~23학번"
+        },
+        {
+          "from": 2024,
+          "to": 9999,
+          "label": "24학번 이후"
+        }
+      ]
+    },
+    "cse-curriculum-double": {
+      "title": "컴퓨터공학과 복수전공생 졸업요건",
+      "org": "컴퓨터공학과 홈페이지",
+      "source": "이화여자대학교 컴퓨터공학과 공식 홈페이지",
+      "url": "https://cse.ewha.ac.kr/cse/academic/curriculum.do",
+      "location": [
+        "컴퓨터공학과 홈페이지",
+        "교육활동",
+        "교육과정",
+        "복수전공생 졸업요건"
+      ],
+      "steps": [
+        "컴퓨터공학과 홈페이지(cse.ewha.ac.kr) 접속",
+        "교육활동 › 교육과정 선택",
+        "'복수전공생 졸업요건' 표에서 {group} 열 확인"
+      ],
+      "basis": [
+        {
+          "from": 0,
+          "to": 2019,
+          "label": "19학번 이전"
+        },
+        {
+          "from": 2020,
+          "to": 2023,
+          "label": "20~23학번"
+        },
+        {
+          "from": 2024,
+          "to": 9999,
+          "label": "24학번 이후"
+        }
+      ]
+    },
+    "cse-curriculum-minor": {
+      "title": "컴퓨터공학과 부전공생 졸업요건",
+      "org": "컴퓨터공학과 홈페이지",
+      "source": "이화여자대학교 컴퓨터공학과 공식 홈페이지",
+      "url": "https://cse.ewha.ac.kr/cse/academic/curriculum.do",
+      "location": [
+        "컴퓨터공학과 홈페이지",
+        "교육활동",
+        "교육과정",
+        "부전공생 졸업요건"
+      ],
+      "steps": [
+        "컴퓨터공학과 홈페이지(cse.ewha.ac.kr) 접속",
+        "교육활동 › 교육과정 선택",
+        "'부전공생 졸업요건' 항목 확인"
+      ],
+      "basis": null
+    },
+    "cse-notice-2026": {
+      "title": "2026학년도 컴퓨터공학과 졸업요건 변경 공지",
+      "org": "컴퓨터공학과 홈페이지",
+      "source": "이화여자대학교 컴퓨터공학과 공지사항 (2026.05.15 게시)",
+      "url": "https://cse.ewha.ac.kr/cse/student/notice.do?mode=view&articleNo=780293",
+      "location": [
+        "컴퓨터공학과 홈페이지",
+        "학생광장",
+        "공지사항"
+      ],
+      "steps": [
+        "컴퓨터공학과 홈페이지 접속",
+        "학생광장 › 공지사항 선택",
+        "'2026학년도 컴퓨터공학과 졸업요건 변경 안내' 게시글 확인"
+      ],
+      "basisFixed": "2026.08 졸업생부터 적용 (2026.05.15 시행)"
+    },
+    "ewha-double-limit": {
+      "title": "복수전공 승인제한 조건 (학과별)",
+      "org": "이화여대 홈페이지",
+      "source": "이화여자대학교 공식 홈페이지 학사안내",
+      "url": "https://www.ewha.ac.kr/ewha/bachelor/major02-1.do",
+      "location": [
+        "이화여대 홈페이지",
+        "학사안내",
+        "학사정보",
+        "전공선택",
+        "복수전공",
+        "승인제한 조건 자세히 보기"
+      ],
+      "steps": [
+        "이화여자대학교 홈페이지 접속",
+        "학사안내 › 학사정보 › 전공선택 › 복수전공 탭 선택",
+        "'복수전공 승인제한 조건' 자세히 보기 클릭",
+        "표에서 지원할 학과(전공) 행 확인"
+      ],
+      "basis": null
+    },
+    "ewha-linked": {
+      "title": "연계전공 규정",
+      "org": "이화여대 홈페이지",
+      "source": "이화여자대학교 공식 홈페이지 학사안내",
+      "url": "https://www.ewha.ac.kr/ewha/bachelor/major04.do",
+      "location": [
+        "이화여대 홈페이지",
+        "학사안내",
+        "학사정보",
+        "전공선택",
+        "연계전공"
+      ],
+      "steps": [
+        "이화여자대학교 홈페이지 접속",
+        "학사안내 › 학사정보 › 전공선택 선택",
+        "연계전공 탭 선택"
+      ],
+      "basis": null
+    },
+    "ewha-fusion": {
+      "title": "융합전공 규정",
+      "org": "이화여대 홈페이지",
+      "source": "이화여자대학교 공식 홈페이지 학사안내",
+      "url": "https://www.ewha.ac.kr/ewha/bachelor/major05.do",
+      "location": [
+        "이화여대 홈페이지",
+        "학사안내",
+        "학사정보",
+        "전공선택",
+        "융합전공"
+      ],
+      "steps": [
+        "이화여자대학교 홈페이지 접속",
+        "학사안내 › 학사정보 › 전공선택 선택",
+        "융합전공 탭 선택"
+      ],
+      "basis": null
+    },
+    "liberal-linked": {
+      "title": "인문과학대학 연계전공 안내",
+      "org": "인문과학대학 홈페이지",
+      "source": "이화여자대학교 인문과학대학 공식 홈페이지 (페이지 수정일 2023-10-12)",
+      "url": "https://liberal.ewha.ac.kr/liberal/department-guidance/interdisciplinary-program.do",
+      "location": [
+        "인문과학대학 홈페이지",
+        "학과안내",
+        "연계전공"
+      ],
+      "steps": [
+        "인문과학대학 홈페이지(liberal.ewha.ac.kr) 접속",
+        "학과안내 › 연계전공 선택",
+        "해당 연계전공 항목 확인"
+      ],
+      "basis": null
+    },
+    "f-hmgmt-page": {
+      "title": "인문융합전공 인문경영 안내",
+      "org": "인문과학대학 홈페이지",
+      "source": "이화여자대학교 인문과학대학 공식 홈페이지",
+      "url": "https://liberal.ewha.ac.kr/liberal/department-guidance/humanities-management.do",
+      "location": [
+        "인문과학대학 홈페이지",
+        "학과안내",
+        "인문융합전공",
+        "인문경영"
+      ],
+      "steps": [
+        "인문과학대학 홈페이지(liberal.ewha.ac.kr) 접속",
+        "학과안내 › 인문융합전공 선택",
+        "인문경영 페이지에서 최소전공학점·교과과정 확인"
+      ],
+      "basis": null,
+      "basisFixed": "2024학년도 인문경영 교과과정 기준 (본인 입학년도 교과과정 별도 조회 필요)"
+    },
+    "f-hartsmedia-page": {
+      "title": "인문융합전공 인문예술미디어 안내",
+      "org": "인문과학대학 홈페이지",
+      "source": "이화여자대학교 인문과학대학 공식 홈페이지",
+      "url": "https://liberal.ewha.ac.kr/liberal/department-guidance/humanities-arts-media.do",
+      "location": [
+        "인문과학대학 홈페이지",
+        "학과안내",
+        "인문융합전공",
+        "인문예술미디어"
+      ],
+      "steps": [
+        "인문과학대학 홈페이지(liberal.ewha.ac.kr) 접속",
+        "학과안내 › 인문융합전공 선택",
+        "인문예술미디어 페이지에서 최소전공학점·교과과정 확인"
+      ],
+      "basis": null
+    },
+    "f-htech-page": {
+      "title": "인문융합전공 인문테크놀로지 안내",
+      "org": "인문과학대학 홈페이지",
+      "source": "이화여자대학교 인문과학대학 공식 홈페이지",
+      "url": "https://liberal.ewha.ac.kr/liberal/department-guidance/humanities-technology.do",
+      "location": [
+        "인문과학대학 홈페이지",
+        "학과안내",
+        "인문융합전공",
+        "인문테크놀로지"
+      ],
+      "steps": [
+        "인문과학대학 홈페이지(liberal.ewha.ac.kr) 접속",
+        "학과안내 › 인문융합전공 선택",
+        "인문테크놀로지 페이지에서 최소전공학점·교과과정 확인"
+      ],
+      "basis": null
+    },
+    "nursing-curriculum": {
+      "title": "간호대학 교육과정",
+      "org": "간호대학 홈페이지",
+      "source": "이화여자대학교 간호대학 공식 홈페이지",
+      "url": "https://nursing.ewha.ac.kr/nursing/intro/nursing-2024.do",
+      "location": [
+        "간호대학 홈페이지",
+        "교육과정"
+      ],
+      "steps": [
+        "간호대학 홈페이지(nursing.ewha.ac.kr) 접속",
+        "교육과정 메뉴 선택",
+        "본인 입학년도 교육과정 확인"
+      ],
+      "basis": null
+    },
+    "pharm-curriculum": {
+      "title": "약학대학 교육과정",
+      "org": "약학대학 홈페이지",
+      "source": "이화여자대학교 약학대학 공식 홈페이지",
+      "url": "https://pharm21.ewha.ac.kr/pharm21/curriculum/curriculum04.do",
+      "location": [
+        "약학대학 홈페이지",
+        "교육과정"
+      ],
+      "steps": [
+        "약학대학 홈페이지(pharm21.ewha.ac.kr) 접속",
+        "교육과정 메뉴 선택",
+        "{group} 교육과정 선택"
+      ],
+      "variants": [
+        {
+          "from": 2010,
+          "to": 2012,
+          "url": "https://pharm21.ewha.ac.kr/pharm21/curriculum/curriculum01.do",
+          "label": "약학 10-12학번"
+        },
+        {
+          "from": 2013,
+          "to": 2021,
+          "url": "https://pharm21.ewha.ac.kr/pharm21/curriculum/curriculum02.do",
+          "label": "약학과 13학번 이후 (산업제약학과는 별도 페이지)"
+        },
+        {
+          "from": 2022,
+          "to": 9999,
+          "url": "https://pharm21.ewha.ac.kr/pharm21/curriculum/curriculum04.do",
+          "label": "약학부 약학전공 22학번 이후 (미래산업약학전공은 별도 페이지)"
+        }
+      ]
+    },
+    "intl-curriculum": {
+      "title": "국제학전공 교과과정·졸업이수학점",
+      "org": "스크랜튼대학 홈페이지",
+      "source": "이화여자대학교 스크랜튼대학 공식 홈페이지",
+      "url": "https://cmsfox.ewha.ac.kr/scranton/international-studies/international-curriculum.do",
+      "location": [
+        "스크랜튼대학 홈페이지",
+        "국제학부 국제학전공",
+        "교육과정",
+        "교과과정"
+      ],
+      "steps": [
+        "스크랜튼대학 홈페이지 접속",
+        "국제학부 국제학전공 › 교육과정 선택",
+        "'졸업이수학점' 표에서 {group} 행 확인"
+      ],
+      "basis": [
+        {
+          "from": 2019,
+          "to": 2019,
+          "label": "2019 입학생"
+        },
+        {
+          "from": 2020,
+          "to": 2020,
+          "label": "2020 입학생"
+        }
+      ]
+    },
+    "ewha-calendar": {
+      "title": "2026학년도 학사일정",
+      "org": "이화여대 홈페이지",
+      "source": "이화여자대학교 공식 홈페이지 학사안내",
+      "url": "https://www.ewha.ac.kr/ewha/bachelor/calendar2026.do",
+      "location": [
+        "이화여대 홈페이지",
+        "학사안내",
+        "학사일정",
+        "2026"
+      ],
+      "steps": [
+        "이화여자대학교 홈페이지 접속",
+        "학사안내 › 학사일정 › 2026 선택",
+        "'부ㆍ복수전공 신청 및 취소' 일정 확인"
+      ],
+      "basisFixed": "2026학년도 학사일정"
+    },
+    "notice-2026-2-apply": {
+      "title": "[학부] 2026학년도 제2학기 부.복수전공 신청 및 취소 안내",
+      "org": "이화여대 공지사항",
+      "source": "이화여자대학교 공식 홈페이지 공지사항 (학사)",
+      "url": "https://www.ewha.ac.kr/ewha/news/notice.do?mode=view&articleNo=366944",
+      "location": [
+        "이화여대 홈페이지",
+        "뉴스센터",
+        "공지사항",
+        "학사"
+      ],
+      "steps": [
+        "이화여자대학교 홈페이지 접속",
+        "뉴스센터 › 공지사항 › 학사 탭 선택",
+        "'2026학년도 제2학기 부.복수전공 신청 및 취소 안내' 게시글 확인"
+      ],
+      "basisFixed": "2026학년도 제2학기"
+    },
+    "scholar-info": {
+      "title": "장학금 안내",
+      "org": "이화여대 홈페이지",
+      "source": "이화여자대학교 공식 홈페이지 학사안내",
+      "url": "https://www.ewha.ac.kr/ewha/bachelor/scholarship-info.do",
+      "location": [
+        "이화여대 홈페이지",
+        "학사안내",
+        "장학",
+        "장학금 안내"
+      ],
+      "steps": [
+        "이화여자대학교 홈페이지 접속",
+        "학사안내 › 장학 선택",
+        "장학금 안내 메뉴 선택"
+      ],
+      "basis": null
+    },
+    "scholar-sche": {
+      "title": "장학일정",
+      "org": "이화여대 홈페이지",
+      "source": "이화여자대학교 공식 홈페이지 학사안내",
+      "url": "https://www.ewha.ac.kr/ewha/bachelor/scholarship-sche.do",
+      "location": [
+        "이화여대 홈페이지",
+        "학사안내",
+        "장학",
+        "장학일정"
+      ],
+      "steps": [
+        "이화여자대학교 홈페이지 접속",
+        "학사안내 › 장학 선택",
+        "장학일정 메뉴 선택"
+      ],
+      "basis": null
+    },
+    "scholar-notice": {
+      "title": "장학공지",
+      "org": "이화여대 홈페이지",
+      "source": "이화여자대학교 공식 홈페이지 학사안내",
+      "url": "https://www.ewha.ac.kr/ewha/bachelor/scholarship-notice.do",
+      "location": [
+        "이화여대 홈페이지",
+        "학사안내",
+        "장학",
+        "장학공지"
+      ],
+      "steps": [
+        "이화여자대학교 홈페이지 접속",
+        "학사안내 › 장학 선택",
+        "장학공지 메뉴 선택"
+      ],
+      "basis": null
+    },
+    "scholar-faq": {
+      "title": "장학 FAQ",
+      "org": "이화여대 홈페이지",
+      "source": "이화여자대학교 공식 홈페이지 학사안내",
+      "url": "https://www.ewha.ac.kr/ewha/bachelor/scholarship-faq.do",
+      "location": [
+        "이화여대 홈페이지",
+        "학사안내",
+        "장학",
+        "장학FAQ"
+      ],
+      "steps": [
+        "이화여자대학교 홈페이지 접속",
+        "학사안내 › 장학 선택",
+        "장학FAQ 메뉴 선택"
+      ],
+      "basis": null
+    },
+    "scholar-cse": {
+      "title": "컴퓨터공학과 장학금",
+      "org": "컴퓨터공학과 홈페이지",
+      "source": "이화여자대학교 컴퓨터공학과 공식 홈페이지",
+      "url": "https://cse.ewha.ac.kr/cse/pr/scholarship.do",
+      "location": [
+        "컴퓨터공학과 홈페이지",
+        "학생광장",
+        "장학금"
+      ],
+      "steps": [
+        "컴퓨터공학과 홈페이지 접속",
+        "학생광장 › 장학금 선택"
+      ],
+      "basis": null
+    },
+    "scholar-biz": {
+      "title": "경영대학 장학지원",
+      "org": "경영대학 홈페이지",
+      "source": "이화여자대학교 경영대학 공식 홈페이지",
+      "url": "https://biz.ewha.ac.kr/biz/biz/scholarship.do",
+      "location": [
+        "경영대학 홈페이지",
+        "경영학부",
+        "장학지원"
+      ],
+      "steps": [
+        "경영대학 홈페이지 접속",
+        "경영학부 › 장학지원 선택"
+      ],
+      "basis": null
+    },
+    "kosaf": {
+      "title": "한국장학재단",
+      "org": "한국장학재단",
+      "source": "한국장학재단 공식 홈페이지",
+      "url": "https://www.kosaf.go.kr",
+      "location": [
+        "한국장학재단 홈페이지"
+      ],
+      "steps": [
+        "한국장학재단 홈페이지 접속",
+        "장학금 메뉴에서 해당 장학 확인"
+      ],
+      "basis": null
+    }
+  }
+}

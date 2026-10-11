@@ -1,0 +1,114 @@
+{
+  "_note": "2026-10-11 확인. 전공 목록: 2026학년도 취득학점표(credits_2026.pdf, 2026.1.23 개정) + 각 단과대학 홈페이지 학과 메뉴. 홈페이지·전화는 각 단과대학/학과 공식 사이트 표기 그대로.",
+  "colleges": [
+    { "id": "liberal", "name": "인문과학대학", "home": "http://liberal.ewha.ac.kr/", "office": { "label": "인문과학대학 행정실", "phone": "02-3277-2128" } },
+    { "id": "social", "name": "사회과학대학", "home": "http://apple.ewha.ac.kr/", "office": { "label": "사회과학대학 행정실", "phone": "02-3277-3580" } },
+    { "id": "nature", "name": "자연과학대학", "home": "https://nature.ewha.ac.kr", "office": { "label": "자연과학대학 행정실", "phone": "02-3277-4300" } },
+    { "id": "eng", "name": "공과대학", "home": "http://eng.ewha.ac.kr", "office": { "label": "공과대학 행정실", "phone": "02-3277-3537" } },
+    { "id": "music", "name": "음악대학", "home": "http://music.ewha.ac.kr", "office": { "label": "음악대학 행정실", "phone": "02-3277-2403" } },
+    { "id": "art", "name": "조형예술대학", "home": "http://artndesign.ewha.ac.kr", "office": null },
+    { "id": "edu", "name": "사범대학", "home": "http://teachers.ewha.ac.kr/", "office": { "label": "사범대학 행정실", "phone": "02-3277-2613" } },
+    { "id": "biz", "name": "경영대학", "home": "http://biz.ewha.ac.kr", "office": { "label": "경영대학 행정실", "phone": "02-3277-2777" } },
+    { "id": "conv", "name": "신산업융합대학", "home": "http://convergence.ewha.ac.kr/", "office": { "label": "신산업융합대학 행정실", "phone": "02-3277-2538" } },
+    { "id": "med", "name": "의과대학", "home": "http://www.ewhamed.ac.kr", "office": null },
+    { "id": "nursing", "name": "간호대학", "home": "http://nursing.ewha.ac.kr", "office": null },
+    { "id": "pharm", "name": "약학대학", "home": "https://pharm21.ewha.ac.kr/", "office": { "label": "약학대학 행정실", "phone": "02-3277-3063" } },
+    { "id": "scranton", "name": "스크랜튼대학", "home": "http://scrantoncollege.ewha.ac.kr", "office": { "label": "스크랜튼대학 행정실", "phone": "02-3277-3653" } },
+    { "id": "ai", "name": "인공지능대학", "home": "http://ai.ewha.ac.kr/ai/index.do", "office": null }
+  ],
+  "majors": [
+    { "id": "kor", "name": "국어국문학과", "college": "liberal", "home": "https://kukewha.ewha.ac.kr/" },
+    { "id": "chn", "name": "중어중문학과", "college": "liberal", "home": "http://zhongwen.ewha.ac.kr/" },
+    { "id": "fra", "name": "불어불문학과", "college": "liberal", "home": "http://france.ewha.ac.kr/" },
+    { "id": "ger", "name": "독어독문학과", "college": "liberal", "home": "http://my.ewha.ac.kr/german/" },
+    { "id": "hist", "name": "사학과", "college": "liberal", "home": "https://historian.ewha.ac.kr/" },
+    { "id": "phil", "name": "철학과", "college": "liberal", "home": "http://philos.ewha.ac.kr/" },
+    { "id": "chr", "name": "기독교학과", "college": "liberal", "home": "https://christa.ewha.ac.kr/" },
+    { "id": "eng-lit", "name": "영어영문학부", "college": "liberal", "home": "http://english.ewha.ac.kr/" },
+
+    { "id": "pol", "name": "정치외교학과", "college": "social", "home": "http://www.ewha.ac.kr/ewha/academics/social-sciences-prof.do?deptUniNo=23" },
+    { "id": "padm", "name": "행정학과", "college": "social", "home": "http://www.ewha.ac.kr/ewha/academics/social-sciences-prof.do?deptUniNo=24" },
+    { "id": "econ", "name": "경제학과", "college": "social", "home": "http://www.ewha.ac.kr/ewha/academics/social-sciences-prof.do?deptUniNo=25" },
+    { "id": "lis", "name": "문헌정보학과", "college": "social", "home": "http://www.ewha.ac.kr/ewha/academics/social-sciences-prof.do?deptUniNo=26" },
+    { "id": "soc", "name": "사회학과", "college": "social", "home": "http://www.ewha.ac.kr/ewha/academics/social-sciences-prof.do?deptUniNo=27" },
+    { "id": "sw", "name": "사회복지학과", "college": "social", "home": "http://www.ewha.ac.kr/ewha/academics/social-sciences-prof.do?deptUniNo=28" },
+    { "id": "psy", "name": "심리학과", "college": "social", "home": "http://www.ewha.ac.kr/ewha/academics/social-sciences-prof.do?deptUniNo=29" },
+    { "id": "cons", "name": "소비자학과", "college": "social", "home": "http://www.ewha.ac.kr/ewha/academics/social-sciences-prof.do?deptUniNo=30" },
+    { "id": "comm", "name": "커뮤니케이션·미디어학부", "college": "social", "home": "http://www.ewha.ac.kr/ewha/academics/social-sciences-prof.do?deptUniNo=31" },
+
+    { "id": "math", "name": "수학과", "college": "nature", "home": "https://cmsfox.ewha.ac.kr/math/index.do" },
+    { "id": "stat", "name": "통계학과", "college": "nature", "home": "http://stat.ewha.ac.kr/" },
+    { "id": "phys", "name": "물리학과", "college": "nature", "home": "http://physics.ewha.ac.kr" },
+    { "id": "chem", "name": "화학·나노과학과", "college": "nature", "home": "https://myr.ewha.ac.kr/chem/index.do" },
+    { "id": "bio", "name": "생명과학과", "college": "nature", "home": "https://biology.ewha.ac.kr/" },
+
+    { "id": "ee", "name": "전자전기공학전공", "college": "eng", "home": "http://ee.ewha.ac.kr" },
+    { "id": "semi", "name": "지능형반도체공학전공", "college": "eng", "home": "http://ee.ewha.ac.kr" },
+    { "id": "foodbio", "name": "식품생명공학과", "college": "eng", "home": "https://foodbiotech.ewha.ac.kr/" },
+    { "id": "chems", "name": "화공신소재공학과", "college": "eng", "home": "https://chems.ewha.ac.kr/web/home.php" },
+    { "id": "arch", "name": "건축학과", "college": "eng", "home": "http://ea.ewha.ac.kr" },
+    { "id": "archeng", "name": "건축도시시스템공학과", "college": "eng", "home": "https://ewharchi.ewha.ac.kr/" },
+    { "id": "env", "name": "환경공학과", "college": "eng", "home": "https://environewha.ewha.ac.kr/" },
+    { "id": "cese", "name": "기후에너지시스템공학과", "college": "eng", "home": "http://cese.ewha.ac.kr" },
+    { "id": "mbe", "name": "휴먼기계바이오공학과", "college": "eng", "home": "http://mbe.ewha.ac.kr" },
+
+    { "id": "piano", "name": "건반악기과", "college": "music", "home": "https://music.ewha.ac.kr/emusic/1517/subview.do" },
+    { "id": "orch", "name": "관현악과", "college": "music", "home": "https://music.ewha.ac.kr/emusic/1519/subview.do" },
+    { "id": "voice", "name": "성악과", "college": "music", "home": "https://music.ewha.ac.kr/emusic/1521/subview.do" },
+    { "id": "comp", "name": "작곡과", "college": "music", "home": "https://music.ewha.ac.kr/emusic/1523/subview.do" },
+    { "id": "kmusic", "name": "한국음악과", "college": "music", "home": "https://music.ewha.ac.kr/emusic/1525/subview.do" },
+    { "id": "dance", "name": "무용과", "college": "music", "home": "https://music.ewha.ac.kr/emusic/1527/subview.do", "noDouble": "음악대학 무용과로 복수전공 지원은 불가함 (복수전공 규정 원문)" },
+
+    { "id": "fineart", "name": "조형예술학부", "college": "art", "home": null },
+    { "id": "textile", "name": "섬유·패션학부", "college": "art", "home": null },
+    { "id": "design", "name": "디자인학부", "college": "art", "home": null },
+
+    { "id": "edu", "name": "교육학과", "college": "edu", "home": "https://teachers.ewha.ac.kr/teachers/major/education.do" },
+    { "id": "ece", "name": "유아교육과", "college": "edu", "home": "https://teachers.ewha.ac.kr/teachers/major/early-childhood-education.do" },
+    { "id": "elem", "name": "초등교육과", "college": "edu", "home": "https://teachers.ewha.ac.kr/teachers/major/elementary-education.do", "noDouble": "초등교육과로 복수전공 지원은 불가함 (복수전공 규정 원문)" },
+    { "id": "edtech", "name": "교육공학과", "college": "edu", "home": "https://teachers.ewha.ac.kr/teachers/major/educational-engineering.do" },
+    { "id": "sped", "name": "특수교육과", "college": "edu", "home": "https://teachers.ewha.ac.kr/teachers/major/special-education.do" },
+    { "id": "engedu", "name": "영어교육과", "college": "edu", "home": "https://teachers.ewha.ac.kr/teachers/major/english-education.do" },
+    { "id": "socedu", "name": "사회과교육과", "college": "edu", "home": "https://teachers.ewha.ac.kr/teachers/major/social-education.do" },
+    { "id": "koredu", "name": "국어교육과", "college": "edu", "home": "https://teachers.ewha.ac.kr/teachers/major/korean-education.do" },
+    { "id": "sciedu", "name": "과학교육과", "college": "edu", "home": "https://teachers.ewha.ac.kr/teachers/major/science-education.do" },
+    { "id": "mathedu", "name": "수학교육과", "college": "edu", "home": "https://teachers.ewha.ac.kr/teachers/major/math-education.do" },
+
+    { "id": "biz", "name": "경영학부", "college": "biz", "home": "http://biz.ewha.ac.kr", "deptMain": ["biz-curriculum"] },
+
+    { "id": "cc", "name": "융합콘텐츠학과", "college": "conv", "home": "http://cc.ewha.ac.kr/" },
+    { "id": "fashion", "name": "의류산업학과", "college": "conv", "home": "http://fashion.ewha.ac.kr/" },
+    { "id": "ioa", "name": "국제사무학과", "college": "conv", "home": "http://ioa.ewha.ac.kr/" },
+    { "id": "food", "name": "식품영양학과", "college": "conv", "home": "http://nsfm.ewha.ac.kr/" },
+    { "id": "health", "name": "융합보건학과", "college": "conv", "home": "http://publichealth.ewha.ac.kr/" },
+    { "id": "sports", "name": "체육과학부", "college": "conv", "home": "https://sports.ewha.ac.kr" },
+
+    { "id": "premed", "name": "의예과", "college": "med", "home": null, "noDouble": "의학 관련 전공(학과)은 복수전공으로 이수할 수 없음 (복수전공 규정 원문)" },
+    { "id": "med", "name": "의학과", "college": "med", "home": null, "noDouble": "의학 관련 전공(학과)은 복수전공으로 이수할 수 없음 (복수전공 규정 원문)" },
+    { "id": "nursing", "name": "간호학부", "college": "nursing", "home": null, "deptMain": ["nursing-curriculum"], "noDouble": "간호 관련 전공(학과)은 복수전공으로 이수할 수 없음 (복수전공 규정 원문)" },
+    { "id": "pharm", "name": "약학부", "college": "pharm", "home": null, "deptMain": ["pharm-curriculum"], "noDouble": "약학 관련 전공(학과)은 복수전공으로 이수할 수 없음 (복수전공 규정 원문)" },
+
+    { "id": "scranton", "name": "스크랜튼학부", "college": "scranton", "home": "https://scrantoncollege.ewha.ac.kr/scranton/free-major/faculty-introduction.do" },
+    { "id": "brain", "name": "뇌·인지과학부", "college": "scranton", "home": "https://scrantoncollege.ewha.ac.kr/scranton/department-brain/brain-major-introduction.do" },
+    { "id": "intl", "name": "국제학부 국제학전공", "college": "scranton", "home": "https://scrantoncollege.ewha.ac.kr/scranton/international-studies/international-introduction.do", "deptMain": ["intl-curriculum"] },
+    { "id": "kstudies", "name": "국제학부 글로벌한국학전공", "college": "scranton", "home": "https://scrantoncollege.ewha.ac.kr/scranton/korean-studies/korean-introduction.do" },
+
+    { "id": "cse", "name": "컴퓨터공학과", "college": "ai", "home": "https://cse.ewha.ac.kr/cse/index.do", "office": { "label": "컴퓨터공학과 사무실", "phone": "02-3277-2307" },
+      "deptMain": ["cse-curriculum-main", "cse-notice-2026"], "deptDouble": ["cse-curriculum-double", "cse-notice-2026"], "deptMinor": ["cse-curriculum-minor"] },
+    { "id": "cyber", "name": "사이버공학과", "college": "ai", "home": null },
+    { "id": "aimajor", "name": "인공지능전공", "college": "ai", "home": null },
+    { "id": "ds", "name": "데이터사이언스전공", "college": "ai", "home": null }
+  ],
+  "linked": [
+    { "id": "l-eastasia", "name": "동아시아학 연계전공", "college": "liberal", "home": null },
+    { "id": "l-us", "name": "미국학 연계전공", "college": "liberal", "home": null },
+    { "id": "l-english", "name": "전문영어 연계전공", "college": "liberal", "home": null },
+    { "id": "l-arthist", "name": "미술사학 연계전공", "college": "liberal", "home": "https://arthistory.ewha.ac.kr/" },
+    { "id": "l-japan", "name": "일본언어문화 연계전공", "college": "liberal", "home": null, "office": { "label": "일본언어문화 연계전공 이메일", "email": "japanese@ewha.ac.kr" } }
+  ],
+  "fusion": [
+    { "id": "f-hmgmt", "name": "인문융합전공 인문경영", "college": "liberal", "home": "http://my.ewha.ac.kr/e600195/", "office": { "label": "인문과학대학 전공사무실", "phone": "02-3277-4730" }, "deptSecond": ["f-hmgmt-page"] },
+    { "id": "f-hartsmedia", "name": "인문융합전공 인문예술미디어", "college": "liberal", "home": "http://my.ewha.ac.kr/e600195/", "deptSecond": ["f-hartsmedia-page"] },
+    { "id": "f-htech", "name": "인문융합전공 인문테크놀로지", "college": "liberal", "home": "http://my.ewha.ac.kr/e600195/", "deptSecond": ["f-htech-page"] }
+  ]
+}
